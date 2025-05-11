@@ -31,4 +31,5 @@ addons\sourcemod\configs\sm_changesmtag.cfg: Sunucu tagını buradan değiştire
 addons\sourcemod\configs\admin_levels.cfg: Hangi bayraklara hangi yetkilerin atandığını bu dosyada öğrenebilirsiniz.
 addons\sourcemod\configs\hextags.cfg: Yetkililere veya oyunculara tag atamak için bu dosyayı kullanabilirsiniz.
 addons\sourcemod\configs\wardencommands.cfg: Komutçunun kullanabileceği komutları bu dosyaya ekleyebilirsiniz.
+addons\sourcemod\configs\helpmenu.cfg: Sunucu kurallarını ve komutlarını düzenleyebilirsiniz.
 ```
