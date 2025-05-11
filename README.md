@@ -29,3 +29,6 @@ addons\sourcemod\configs\admin_levels.cfg: Hangi bayraklara hangi yetkilerin ata
 addons\sourcemod\configs\hextags.cfg: Yetkililere veya oyunculara tag atamak için bu dosyayı kullanabilirsiniz.
 addons\sourcemod\configs\wardencommands.cfg: Komutçunun kullanabileceği komutları bu dosyaya ekleyebilirsiniz.
 ```
+
+## **Amaç:**
+Counter-Strike 2 oynamak istemeyen veya sıkılan kişiler için, Counter-Strike: Source üzerinden CSS Full Mod sunucusu açmak, nostaljik bir deneyim sunmanın yanı sıra birçok avantaj da sağlar. Bu sunucuyu açarak, daha düşük dosya boyutlarıyla, eski oyun tarzının keyfini çıkarabilir ve sistem gereksinimlerini azaltabilirsiniz. Ayrıca, bu sunucu dosyalarını kendi bilgisayarınızda da kolayca kurarak, bireysel bir oyun deneyimi yaşayabilirsiniz.
