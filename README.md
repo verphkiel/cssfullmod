@@ -37,12 +37,12 @@ Bu ayar sayesinde F9 tuşuna bastığınızda mikrofonunuz sürekli açık kalı
 ## **Config Dosyaları:**
 
 ```sh
-cfg\server.cfg: Sunucu adını buradan değiştirebilirsiniz.
+cfg\server.cfg: Sunucu adınızı buradan değiştirebilirsiniz.
 cfg\mapcycle.txt: Sunucunuzda yüklü olan haritaları bu dosyada belirleyebilirsiniz.
 addons\sourcemod\configs\sm_changesmtag.cfg: Sunucu tagını buradan değiştirebilirsiniz.
-addons\sourcemod\configs\admin_levels.cfg: Hangi bayraklara hangi yetkilerin atandığını bu dosyada öğrenebilirsiniz.
+addons\sourcemod\configs\admin_levels.cfg: Hangi bayraklara hangi yetkilerin atandığını bu dosyadan öğrenebilirsiniz.
 addons\sourcemod\configs\hextags.cfg: Yetkililere veya oyunculara tag atamak için bu dosyayı kullanabilirsiniz.
-addons\sourcemod\configs\wardencommands.cfg: Komutçunun kullanabileceği komutları bu dosyaya ekleyebilirsiniz.
+addons\sourcemod\configs\wardencommands.cfg: Komutçunun ve yetkililerin jailbreak modunda kullanabileceği komutları bu dosyaya ekleyebilirsiniz.
 addons\sourcemod\configs\helpmenu.cfg: Sunucu kurallarını ve komutlarını düzenleyebilirsiniz.
 addons\sourcemod\configs\chatblocker: Belirli kelimeleri yasaklamak veya izin vermek için kullanabilirsiniz.
 addons\sourcemod\configs\map-cfg: Belirli eklentileri eklemek veya kaldırmak için kullanabilirsiniz.
