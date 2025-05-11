@@ -22,6 +22,18 @@ Jailbreak modunda, SKZ (Süreli KZ) ayarlamak için `!zones` komutunu kullanarak
 Jailbreak Training haritasında, `!zones` komutuyla başlangıç ve bitiş noktalarını belirleyebilirsiniz. Ayrıca, `!saveruns` ve `!savezones` komutları ile bölge kayıtları yapabilirsiniz.
 ```
 
+```sh
+Counter-Strike: Source oyununda sürekli mikrofon açık bırakma özelliği bulunmadığı için, Jailbreak modunda komutçu olan oyuncuların kendi oyun dosyalarına .cfg dosyası oluşturarak aşağıdaki komutu eklemesi gerekir:
+
+alias mike "mikeon"
+alias mikeon "+voicerecord; alias mike mikeoff"
+alias mikeoff "-voicerecord; alias mike mikeon"
+
+bind "F9" "mike"
+
+Bu ayar sayesinde F9 tuşuna bastığınızda mikrofonunuz sürekli açık kalır. Tekrar bastığınızda ise mikrofon kapanır.
+```
+
 ## **Config Dosyaları:**
 
 ```sh
@@ -32,4 +44,6 @@ addons\sourcemod\configs\admin_levels.cfg: Hangi bayraklara hangi yetkilerin ata
 addons\sourcemod\configs\hextags.cfg: Yetkililere veya oyunculara tag atamak için bu dosyayı kullanabilirsiniz.
 addons\sourcemod\configs\wardencommands.cfg: Komutçunun kullanabileceği komutları bu dosyaya ekleyebilirsiniz.
 addons\sourcemod\configs\helpmenu.cfg: Sunucu kurallarını ve komutlarını düzenleyebilirsiniz.
+addons\sourcemod\configs\chatblocker: Belirli kelimeleri yasaklamak veya izin vermek için kullanabilirsiniz.
+addons\sourcemod\configs\map-cfg: Belirli eklentileri eklemek veya kaldırmak için kullanabilirsiniz.
 ```
