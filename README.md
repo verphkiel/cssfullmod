@@ -19,7 +19,7 @@ Counter-Strike 2 oynamak istemeyen veya sıkılan kişiler için, Counter-Strike
 ```sh
 Sunucuyu ilk açtığınızda, haritayı yeniden başlatmanızda fayda var. Nadir de olsa, bazı pluginler düzgün yüklenmeyebilir.
 Jailbreak modunda, SKZ (Süreli KZ) ayarlamak için `!zones` komutunu kullanarak SKZ adında bir bölge oluşturabilirsiniz. Daha fazla SKZ için (SKZ1, SKZ2) şeklinde bölge oluşturabilirsiniz.
-Jailbreak Training haritasında, `!zones` komutuyla başlangıç ve bitiş noktalarını belirleyebilirsiniz. Ayrıca, `!saveruns` ve `!savezones` komutları ile bölge kayıtları yapabilirsiniz.
+Jailbreak Training haritasında, `!zones` komutuyla başlangıç ve bitiş noktalarını belirleyebilirsiniz. Ayrıca, `!saveruns` ve `!savezones` komutları ile bölgeleri kayıt edebilirsiniz.
 ```
 
 ```sh
