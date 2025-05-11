@@ -1,2 +1,30 @@
-# cssfullmod
-Counter-Strike:Source Full Mod Server Files
+# Counter-Strike: Source Full Mod (YAKINDA)
+
+Bu, Counter-Strike: Source (CS:S) oyun sunucuları için çeşitli oyun modlarını içeren eksiksiz bir mod paketi sunar.
+
+- Aim
+- AWP
+- Deathrun
+- Jailbreak
+- Minigames
+- Surf
+- Seek
+- Training (Jailbreak)
+
+## Bilinmesi Gerekenler:
+```sh
+- Sunucuyu ilk açtığınızda, haritayı yeniden başlatmanızda fayda var. Nadir de olsa, bazı pluginler düzgün yüklenmeyebilir.
+- Jailbreak modunda, SKZ (Süreli KZ) ayarlamak için `!zones` komutunu kullanarak SKZ adında bir bölge oluşturabilirsiniz. Daha fazla SKZ için (SKZ1, SKZ2) şeklinde bölge oluşturabilirsiniz.
+- Jailbreak Training haritasında, `!zones` komutuyla başlangıç ve bitiş noktalarını belirleyebilirsiniz. Ayrıca, `!saveruns` ve `!savezones` komutları ile bölge kayıtları yapabilirsiniz.
+```
+
+## **Config Dosyaları:**
+
+```sh
+- cfg\server.cfg: Sunucu adını buradan değiştirebilirsiniz.
+- cfg\mapcycle.txt: Sunucunuzda yüklü olan haritaları bu dosyada belirleyebilirsiniz.
+- addons\sourcemod\configs\sm_changesmtag.cfg: Sunucu tagını buradan değiştirebilirsiniz.
+- addons\sourcemod\configs\admin_levels.cfg: Hangi bayraklara hangi yetkilerin atandığını bu dosyada öğrenebilirsiniz.
+- addons\sourcemod\configs\hextags.cfg: Yetkililere veya oyunculara tag atamak için bu dosyayı kullanabilirsiniz.
+- addons\sourcemod\configs\wardencommands.cfg: Komutçunun kullanabileceği komutları bu dosyaya ekleyebilirsiniz.
+```
